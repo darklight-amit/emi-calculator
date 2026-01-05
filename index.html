@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <title>Financial Tools by Amit</title>
-
-  <meta name="description" content="Free financial calculators including EMI calculator to estimate monthly loan payments easily." />
+  <meta name="description" content="Free financial tools including EMI calculator to calculate loan repayments easily." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- AdSense script (ADD ONLY AFTER APPROVAL) -->
+  <!-- Add AdSense script here AFTER approval -->
   <!--
   <script async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
@@ -19,104 +18,66 @@
       font-family: Arial, sans-serif;
       background: #f4f6f8;
       margin: 0;
-      padding: 0;
     }
-
     .container {
       max-width: 900px;
       margin: auto;
-      background: #ffffff;
+      background: white;
       padding: 30px;
       min-height: 100vh;
     }
-
     header {
       text-align: center;
-      margin-bottom: 30px;
     }
-
-    h1 {
-      color: #333;
-    }
-
-    .tool-card {
+    .card {
       background: #f1f1f1;
       padding: 20px;
       border-radius: 6px;
-      margin-bottom: 20px;
+      margin-top: 30px;
     }
-
-    .tool-card h2 {
-      margin-top: 0;
-    }
-
-    .tool-card a {
+    a.button {
       display: inline-block;
-      margin-top: 10px;
       padding: 10px 15px;
       background: #007bff;
-      color: #ffffff;
+      color: white;
       text-decoration: none;
       border-radius: 4px;
+      margin-top: 10px;
     }
-
-    .tool-card a:hover {
-      background: #0056b3;
-    }
-
     footer {
       margin-top: 40px;
-      padding-top: 20px;
-      border-top: 1px solid #ccc;
       text-align: center;
       font-size: 14px;
-    }
-
-    footer a {
-      margin: 0 10px;
-      color: #007bff;
-      text-decoration: none;
+      border-top: 1px solid #ccc;
+      padding-top: 20px;
     }
   </style>
 </head>
 
 <body>
-
   <div class="container">
     <header>
       <h1>Financial Tools by Amit</h1>
-      <p>
-        This website provides free and easy-to-use financial calculators
-        to help you make better loan and investment decisions.
-      </p>
+      <p>Simple and free calculators to help you make better financial decisions.</p>
     </header>
 
-    <section class="tool-card">
+    <div class="card">
       <h2>EMI Calculator</h2>
       <p>
-        Calculate your monthly EMI, total interest payable, and overall
-        loan cost for home loans, car loans, and personal loans.
+        Calculate your monthly EMI, total interest, and total loan amount
+        for home loans, car loans, and personal loans.
       </p>
-      <a href="/emi-calculator/">Open EMI Calculator</a>
-    </section>
-
-    <!-- You can add more tools later -->
-    <!--
-    <section class="tool-card">
-      <h2>SIP Calculator (Coming Soon)</h2>
-      <p>Estimate returns on your monthly investments.</p>
-    </section>
-    -->
+      <a class="button" href="./emi-calculator/">Open EMI Calculator</a>
+    </div>
 
     <footer>
       <p>
-        <a href="/emi-calculator/privacy.html">Privacy Policy</a> |
-        <a href="/emi-calculator/about.html">About</a> |
-        <a href="/emi-calculator/contact.html">Contact</a>
+        <a href="./emi-calculator/privacy.html">Privacy Policy</a> |
+        <a href="./emi-calculator/about.html">About</a> |
+        <a href="./emi-calculator/contact.html">Contact</a>
       </p>
       <p>© 2026 Amit Rajawat</p>
     </footer>
   </div>
-
 </body>
 </html>
